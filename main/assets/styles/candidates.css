@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+header {
+    background-image:url("../images/Candidates_banner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+
+    height: 59vh;
+    border-bottom:solid #fdd116 10px;
+    font-family: Roboto,sans-serif;
+    font-weight: 100;
+}
+
+#goToTop a {
+    font-size: 2.7rem;
+    cursor:pointer;
+    transition: 200ms linear;
+    color: #4f474e;
+}
+
+#goToTop a:hover {
+    font-size: 3rem;
+    color: #000;
+}
+
+section div h6 {
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+
+section div p {
+    font-family: Nunito, sans-serif;
+    font-weight: 100;
+    line-height: 1.7rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section div ul {
+    list-style-type: square;
+    line-height: 1.7rem;
+    padding: 0 1rem;
+}
+
+section div ul li {
+    padding: 0 0.5rem;
+}
+
+.sec-img-cont {
+    width: 500px;
+}

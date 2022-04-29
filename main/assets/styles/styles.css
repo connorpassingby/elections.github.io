@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300;400&family=Roboto:wght@100;400&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300;400&family=Roboto:wght@100;400;700&display=swap');
+
+
+* {
     padding:0;
     margin:0;
 }
 
+/* navbar */
+
+nav img {
+    cursor:pointer;
+}
 
 nav{
-    height: 3.5rem;
+    height: 3.75rem;
+    transition: background-color 200ms linear;
+    z-index:10;
 }
 
 .navbar-link {
@@ -21,14 +31,24 @@ nav{
     opacity: 0.7;
 }
 
-section h1 {
+/* section styling */
+
+section {
+    padding: 7rem 11rem;
+}
+
+section h1{
     font-family:Roboto, sans-serif;
+    font-weight: 100;
 }
 
 section p {
     font-family:Nunito, sans-serif;
     font-weight: 300;
 }
+
+
+/* candidates */
 
 .candidates div h5 {
     font-family: Roboto, sans-serif;
@@ -42,4 +62,44 @@ section p {
 
 .candidates a {
     width: 85%;
+}
+
+.candidates h4 {
+    font-family: Roboto, sans-serif;
+    font-weight:400;
+}
+
+
+
+/* dropdown */
+
+
+.dropline {
+    margin-top:0;
+}
+
+.dropdownheader {
+    cursor:pointer;
+}
+
+.dropdowncontent div {
+    display:none;
+}
+
+/* remindme */
+
+#remind_me h2 {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+#remind_me a {
+    padding: 0.4rem 13.2rem;
+}
+
+/* footer */
+
+footer {
+    font-size:0.8rem;
+    padding:4rem 7rem;
 }
