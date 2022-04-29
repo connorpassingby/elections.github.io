@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300;400&family=Roboto:wght@100;400&display=swap');* {
+    padding:0;
+    margin:0;
+}
+
+
+nav{
+    height: 3.5rem;
+}
+
+.navbar-link {
+    cursor:pointer;
+    padding: 10px 0;
+}
+
+.navbar-link.active {
+    border-bottom: solid #fdd116 8px;
+}
+
+.navbar-link:hover {
+    opacity: 0.7;
+}
+
+section h1 {
+    font-family:Roboto, sans-serif;
+}
+
+section p {
+    font-family:Nunito, sans-serif;
+    font-weight: 300;
+}
+
+.candidates div h5 {
+    font-family: Roboto, sans-serif;
+    font-weight:400;
+}
+
+.candidates .img-container {
+    height:270px;
+    width: 306px;
+}
+
+.candidates a {
+    width: 85%;
+}

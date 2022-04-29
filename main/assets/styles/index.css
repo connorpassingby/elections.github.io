@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@300;400&family=Roboto:wght@100;400&display=swap');
+
+header {
+    background-image:url("../images/Home_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.tara-na-logo {
+    height: 25vh;
+}
+
+#h-big-text {
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 7rem;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight:100;
+}
+
+#sec1 a {
+    font-size: 1.1rem;
+}
+
+
+.candidates h4 {
+    font-family: Roboto, sans-serif;
+    font-weight:400;
+}
